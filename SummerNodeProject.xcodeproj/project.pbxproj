@@ -251,6 +251,7 @@
 				A4B505AD1D47FFA900CD0337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
