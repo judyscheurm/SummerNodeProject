@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A4B505A81D47FFA900CD0337 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B505A71D47FFA900CD0337 /* main.cpp */; };
 		A4B505B01D47FFDE00CD0337 /* DataNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B505AE1D47FFDE00CD0337 /* DataNode.cpp */; };
+		A4B505B51D480CB700CD0337 /* NodeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B505B31D480CB700CD0337 /* NodeController.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		A4B505A71D47FFA900CD0337 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A4B505AE1D47FFDE00CD0337 /* DataNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataNode.cpp; sourceTree = "<group>"; };
 		A4B505AF1D47FFDE00CD0337 /* DataNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataNode.hpp; sourceTree = "<group>"; };
+		A4B505B31D480CB700CD0337 /* NodeController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeController.cpp; sourceTree = "<group>"; };
+		A4B505B41D480CB700CD0337 /* NodeController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NodeController.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +74,18 @@
 			children = (
 				A4B505AE1D47FFDE00CD0337 /* DataNode.cpp */,
 				A4B505AF1D47FFDE00CD0337 /* DataNode.hpp */,
+				A4B505B61D480CBE00CD0337 /* Controller */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		A4B505B61D480CBE00CD0337 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4B505B31D480CB700CD0337 /* NodeController.cpp */,
+				A4B505B41D480CB700CD0337 /* NodeController.hpp */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B505B51D480CB700CD0337 /* NodeController.cpp in Sources */,
 				A4B505A81D47FFA900CD0337 /* main.cpp in Sources */,
 				A4B505B01D47FFDE00CD0337 /* DataNode.cpp in Sources */,
 			);
