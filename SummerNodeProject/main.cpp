@@ -15,7 +15,7 @@ int main()
     std::cout << "Starting NodeController"<< std::endl;
     NodeController * app = new NodeController();
     app->start();
-    std::cout << "Ending NodeCtrller" <<std::endl;
+    std::cout << "Ending NodeController" <<std::endl;
     
     return 0;
 }
