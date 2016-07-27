@@ -22,14 +22,15 @@ void NodeController :: tryNodes()
     cout << "after" << endl;
     numberNode.setNodeData(231);
     cout << numberNode.getNodeData() << endl;
-
 }
+
 void NodeController :: tryArray()
 {
     SummerArray<int> testArray(3);
+    //int derpy[3];
 }
 
 void NodeController :: start()
 {
-    tryNodes();
+    tryArray();
 }
