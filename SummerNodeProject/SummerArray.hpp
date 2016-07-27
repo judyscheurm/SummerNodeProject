@@ -27,11 +27,13 @@ public:
     Type getFromIndex(int index);
     Type getFirst();
     Type getLast();
-    void setAtIndex(int index, Type data);
     
+    
+    void setAtIndex(int index, Type data);
     void sort();
     void resize (int newSize);
     int getUnusedNodes();
+    int getLength();
     
 };
 #endif /* SummerArray_hpp */
