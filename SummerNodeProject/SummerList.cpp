@@ -97,6 +97,24 @@ Type SummerList<Type> :: remove(int index)
     DataNode<Type> * indexPointer = front;
     DataNode<Type> * removedNode = nullptr;
     DataNode<Type> * next = nullptr;
+    
+    if(size == 1)
+    {
+        removedValue = front->getNodeData();
+        
+        delete indexPointer;
+        front = nullptr;
+        end = nullptr;
+    }
+    else if(index== 0)
+    {
+        removedValue = front->getNodeData();
+        
+        front = front->getNodePointer();
+        delete indexPointer;
+    }
+    else
+    {
     for (int position = 0; position < index-1; position ++)
     {
         indexPointer = indexPointer->getNodePointer();
@@ -104,12 +122,19 @@ Type SummerList<Type> :: remove(int index)
     removedNode = indexPointer->getNodePointer();
     next = removedNode->getNodePointer();
     
+    if(removedNode == end)
+    {
+        end = indexPointer;
+    }
+    
     indexPointer->setNodePointer(next);
     removedNode->setNodePointer(nullptr);
     
     removedValue = removedNode->getNodeData();
     
+    
     delete removedNode;
     
+    }
     return removedValue;
 }
