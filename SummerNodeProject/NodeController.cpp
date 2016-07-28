@@ -9,6 +9,7 @@
 #include "NodeController.hpp"
 #include "DataNode.cpp"
 #include "SummerArray.cpp"
+#include "BinaryTree.cpp"
 #include <string>
 #include <iostream>
 
@@ -30,7 +31,22 @@ void NodeController :: tryArray()
     //int derpy[3];
 }
 
+void NodeController :: tryTree()
+{
+    BinaryTree<int> sampleTree;
+    sampleTree.insert(7);
+    sampleTree.insert(5);
+    sampleTree.insert(213);
+    sampleTree.insert(5);
+    sampleTree.insert(123124);
+    sampleTree.insert(0);
+    
+    cout << "The in order traversal" << endl;
+    sampleTree.inOrderTraversal(sampleTree.getRoot());
+    
+}
+
 void NodeController :: start()
 {
-    tryArray();
+    tryTree();
 }

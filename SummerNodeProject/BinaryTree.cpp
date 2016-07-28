@@ -75,3 +75,9 @@ void BinaryTree<Type> :: postOrderTraversal(BinaryTreeNode<Type>* currentNode)
 
     }
 }
+
+template <class Type>
+BinaryTreeNode<Type> * BinaryTree<Type> :: getRoot()
+{
+    return root;
+}
