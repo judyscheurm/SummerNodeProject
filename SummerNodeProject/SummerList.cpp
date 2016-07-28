@@ -160,5 +160,4 @@ bool SummerList<Type> :: contains(Type data)
     }
     
     return isInList;
-    
 }
