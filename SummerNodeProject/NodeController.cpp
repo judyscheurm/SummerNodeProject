@@ -40,6 +40,7 @@ void NodeController :: tryTree()
     sampleTree.insert(5);
     sampleTree.insert(123124);
     sampleTree.insert(0);
+    sampleTree.insert(-123);
     
     cout << "The in order traversal" << endl;
     sampleTree.inOrderTraversal(sampleTree.getRoot());
