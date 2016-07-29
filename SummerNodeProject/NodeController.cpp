@@ -12,6 +12,7 @@
 #include "BinaryTree.cpp"
 #include <string>
 #include <iostream>
+#include "HashTable.cpp"
 
 using namespace std;
 void NodeController :: tryNodes()
@@ -61,7 +62,28 @@ void NodeController :: tryTree()
     
 }
 
+
+
+void NodeController :: tryHash()
+{
+    HashTable<int> numbersInHash;
+    numbersInHash.add(123);
+    numbersInHash.add(3458);
+    
+    cout << "Current content " << endl;
+    numbersInHash.displayContents();
+    
+    numbersInHash.add(123167);
+    numbersInHash.add(864);
+    numbersInHash.add(8463);
+    numbersInHash.add(1375);
+    
+    cout << "Current content " << endl;
+    numbersInHash.displayContents();
+    
+}
+
 void NodeController :: start()
 {
-    tryTree();
+    tryHash();
 }

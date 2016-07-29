@@ -58,5 +58,5 @@ void HashNode<Type> :: setNode(HashNode<Type>* nextNode)
 template <class Type>
 void HashNode<Type> :: setStuffed(bool isStuffed)
 {
-    this->isStued = isStuffed;
+    this->isStuffed = isStuffed;
 }
