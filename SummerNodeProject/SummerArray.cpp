@@ -37,7 +37,7 @@ SummerArray<Type> :: SummerArray(int length)
 template <class Type>
 Type SummerArray<Type> :: getFromIndex(int index)
 {
-    assert(index >=0)
+    assert(index >=0);
     assert(index < length);
     
     Type retrievedValue;
