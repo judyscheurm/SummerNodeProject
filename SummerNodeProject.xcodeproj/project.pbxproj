@@ -11,6 +11,8 @@
 		A409BC441D4944DC00F7E1CB /* SummerList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A409BC421D4944DC00F7E1CB /* SummerList.cpp */; };
 		A4166D801D4A53AF00795E51 /* BinaryTreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4166D7E1D4A53AF00795E51 /* BinaryTreeNode.cpp */; };
 		A4166D831D4A696100795E51 /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4166D811D4A696100795E51 /* BinaryTree.cpp */; };
+		A48B43D01D4BA55600564561 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A48B43CE1D4BA55600564561 /* HashTable.cpp */; };
+		A48B43D31D4BAF2700564561 /* HashNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A48B43D11D4BAF2700564561 /* HashNode.cpp */; };
 		A4B505A81D47FFA900CD0337 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B505A71D47FFA900CD0337 /* main.cpp */; };
 		A4B505B01D47FFDE00CD0337 /* DataNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B505AE1D47FFDE00CD0337 /* DataNode.cpp */; };
 		A4B505B51D480CB700CD0337 /* NodeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B505B31D480CB700CD0337 /* NodeController.cpp */; };
@@ -37,6 +39,10 @@
 		A4166D7F1D4A53AF00795E51 /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
 		A4166D811D4A696100795E51 /* BinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
 		A4166D821D4A696100795E51 /* BinaryTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryTree.hpp; sourceTree = "<group>"; };
+		A48B43CE1D4BA55600564561 /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		A48B43CF1D4BA55600564561 /* HashTable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HashTable.hpp; sourceTree = "<group>"; };
+		A48B43D11D4BAF2700564561 /* HashNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashNode.cpp; sourceTree = "<group>"; };
+		A48B43D21D4BAF2700564561 /* HashNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HashNode.hpp; sourceTree = "<group>"; };
 		A4B505A41D47FFA900CD0337 /* SummerNodeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SummerNodeProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B505A71D47FFA900CD0337 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A4B505AE1D47FFDE00CD0337 /* DataNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataNode.cpp; sourceTree = "<group>"; };
@@ -84,6 +90,10 @@
 		A4B505B11D47FFFC00CD0337 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A48B43D11D4BAF2700564561 /* HashNode.cpp */,
+				A48B43D21D4BAF2700564561 /* HashNode.hpp */,
+				A48B43CE1D4BA55600564561 /* HashTable.cpp */,
+				A48B43CF1D4BA55600564561 /* HashTable.hpp */,
 				A4166D811D4A696100795E51 /* BinaryTree.cpp */,
 				A4166D821D4A696100795E51 /* BinaryTree.hpp */,
 				A409BC3F1D490E8A00F7E1CB /* SummerArray.cpp */,
@@ -166,8 +176,10 @@
 			files = (
 				A409BC411D490E8A00F7E1CB /* SummerArray.cpp in Sources */,
 				A4B505B51D480CB700CD0337 /* NodeController.cpp in Sources */,
+				A48B43D01D4BA55600564561 /* HashTable.cpp in Sources */,
 				A4166D801D4A53AF00795E51 /* BinaryTreeNode.cpp in Sources */,
 				A4166D831D4A696100795E51 /* BinaryTree.cpp in Sources */,
+				A48B43D31D4BAF2700564561 /* HashNode.cpp in Sources */,
 				A4B505A81D47FFA900CD0337 /* main.cpp in Sources */,
 				A409BC441D4944DC00F7E1CB /* SummerList.cpp in Sources */,
 				A4B505B01D47FFDE00CD0337 /* DataNode.cpp in Sources */,
